@@ -1,0 +1,107 @@
+@font-face {font-family: "Dosis Book";
+    src: url('fonts/DosisBook.ttf');
+    }
+@font-face {font-family: "Area Kilometer 50";
+src: url('fonts/AreaKilometer50.ttf');
+
+}
+header{font-family:  'Gill Sans', 'Gill Sans MT'}
+body {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h1{color: #8107ec; font-family:'Gill Sans', 'Gill Sans MT'; font-size: 2em;}
+
+#sippy{align-content: end;}
+
+
+.navbar {background-color: lightgray;
+margin: -0.8% 0% 0% -0.7%; padding: 0 ;
+position: fixed; width: 100%;
+min-width: 480px; 
+border-bottom: 0.1em solid #8107ec;
+float: left; 
+}
+
+.nav-ul{list-style: none; width: 100%;
+margin: 0; padding:0%;
+border-top: 0.1em solid #8107ec;
+overflow: hidden; white-space: nowrap;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+#logo{
+margin: 1.5% 3.5% 1% 3.5%; float: left;
+height: auto; width: 6vw;
+
+
+
+
+}
+
+#homebutton{
+border-right: 0.1em solid #8107ec; width: 50%;
+}
+.navopt {
+border-right: 0.1em solid #8107ec; width: 16.67%;
+}
+.navopt:first-child a {
+border-left: 0.1em solid #8107ec; }
+.navlink{text-decoration: none; display:block;
+font-family: 'Gill Sans', 'Gill Sans MT';
+font-size: 3vw; color: #8107ec;
+padding: 10% 0%; text-align: center;
+}
+.navlink:visited{
+color: none ;
+}
+.navlink:hover{
+color: #25c900;
+background-color: #8107ec;
+/* transition:all .1s;
+font-size: 2.33em;*/
+}
+
+.navopt:hover{
+color: #25c900;
+background-color: #8107ec;
+/* transition:all .1s;
+font-size: 2.33em;*/
+}
+
+#homenavlink{
+text-decoration: none; display:block;
+font-family: 'Gill Sans', 'Gill Sans MT';
+font-size: 3vw; color: #8107ec;
+margin: 1% 1%; float: left; text-align: center;
+padding: 3.3% 0%;
+
+}
+
+#homenavlink:hover{
+color: #25c900;
+background-color: #8107ec;
+/* transition:all .1s;
+font-size: 2.33em;*/
+}   
+
+#homebutton:hover{
+background-color: #8107ec; 
+}
+
+
+#homenavlink:visited{
+color: none;
+}
+
+#sippy{float: right;}
+h4{color: #25c900;}
+.coaches{color:#8107ec}
+footer{font-family: Arial, Helvetica, sans-serif;}
+
+#lay{width: 100%; text-align: center;}
+h2,h3{color:#8107ec}
+#apply{text-emphasis: bold; color: #25c900; text-align: left; font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT'}
